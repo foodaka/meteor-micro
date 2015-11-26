@@ -14,4 +14,5 @@ if (Posts.find().count() === 0) {
     title: 'The Meteor Book',
     author: 'Tom Coleman',
     url: 'http://themeteorbook.com'
-});
+  });
+}
