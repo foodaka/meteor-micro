@@ -1,4 +1,6 @@
 
 Template.postsList.helpers({
-posts: postsData
+posts: function(){
+  return Posts.find();
+}
 });
